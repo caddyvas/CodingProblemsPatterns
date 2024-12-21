@@ -13,7 +13,7 @@ public class LongestSubString {
      * @param str - string
      * @return length of the longest substring
      */
-    public int findLongestSubstring(String str) {
+    public int findLongestSubstring(String str) { //abcbbcbbkhlkkmnhhgbabfds
         Map<Character, Integer> charMap = new HashMap<>();
         int maxCount = 0;
         int pointer = 0;

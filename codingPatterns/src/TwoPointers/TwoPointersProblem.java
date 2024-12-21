@@ -1,5 +1,7 @@
 package TwoPointers;
 
+import java.util.Arrays;
+
 /**
  * The idea of this technique is to begin with two corners of the given array. We use two index variables left and right to traverse from both corners.
  * <p>

@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 /**
  * Find kth largest element
- * {3,2,1,5,6,4,7,0}
+ * 3, 2, 1, 5, 6, 4
  */
 public class KthLargestElement {
 

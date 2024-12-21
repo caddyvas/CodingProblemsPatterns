@@ -9,7 +9,7 @@ public class SlidingWindowMain {
 
     public static void main(String[] args) {
         MaximumSum maximumSum = new MaximumSum();
-        maximumSum.findMaximumSumSubArray(3, new int[]{1, 1, 5, 0, 1, 2, 7, 0, 2, 1});
+        System.out.println("MaximumSubArray:" +maximumSum.findMaximumSumSubArray(3, new int[]{1, 1, 5, 0, 1, 2, 7, 0, 2, 1}));
 
         LongestSubString longestSubString = new LongestSubString();
         System.out.println("LongestSubString_Length: " + longestSubString.findLongestSubstring("abcbbcbbkhlkkmnhhgbabfds"));
